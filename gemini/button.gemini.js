@@ -68,6 +68,12 @@ gemini.suite('button', function(root) {
             });
         });
 
+        gemini.suite('radio-checked-disabled', function(suite) {
+            suite
+                .setCaptureElements('.gemini-test-button-radio-checked-disabled')
+                .capture('plain');
+        });
+
     [
         'islands',
         'plain'
